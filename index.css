@@ -20,3 +20,45 @@ img{
   margin: 0 auto;
 
 }
+.data{
+  display: table;
+  margin: 0 auto;
+  margin-top: 3%
+
+}
+.data p {
+  margin-left: 20px;
+  display:  inline;
+  padding: 20px
+}
+.data p  span{
+  font-weight: bold;
+  font-size: 22;
+  font-style: oblique;
+}
+.data ul {
+  display: inline-block;
+}
+.buttons{
+  display: table;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;s
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+}
+.button5 {border-radius: 50%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-left: 20px
+  ;}
