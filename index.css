@@ -1,0 +1,22 @@
+body{
+  background-color: rgba(126,173,140,.6)
+
+}
+
+img{
+  display: table;
+  margin: 0 auto;
+  color: white;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  border: 1px solid white;
+  border-style: double;
+}
+.centerd{
+  border: .2px  black;
+
+  width: 100%
+  margin: 0 auto;
+
+}
