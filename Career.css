@@ -1,53 +1,118 @@
 
-
-body{
-  background-color: rgba(126,173,140,.6);
+@media (min-width:800px) {
+  .thebody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
 }
-.border{
+
+@media (max-width:800px) {
+  .thebody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+@media (min-width:800px) {
+  .navbar{
+    background-color: #bd5d38;
+    height: 100%;
+    width: 20%;
+
+  }
+}
+
+@media (max-width:800px) {
+  .navbar{
+    background-color: #bd5d38;
+    height: auto;
+    width: 100%;
+  }
+
+}
+html, body{
   height: 100%;
-  width: 97%;
-  border-radius: 2%;
-  border-width: thin;
-  border-style: solid;
-  border-color: white;
-  margin-left: 1%
-}
-
-.bio{
-  padding: 10px;
-  margin-top: 20px;
-  display: inline block;
+  margin: 0px;
 }
 
 
-.bio p span {
-  font-weight: 400;
-  font-style: italic;
-  font-size: 22px;
-  margin-left: 15%;
-  display: inline-block;
+@media (min-width:800px) {
+  .imgclass img  {
+
+    border-radius: 80%;
+    width: 80%;
+    border-color: #ac7339;
+    border-width: 10px;
+    border-style: solid;
+    margin-top: 5%;
+  }
 
 }
-.bio h1 {
-  margin-left: 10px;
+
+@media (max-width:800px) {
+  .imgclass img  {
+
+    border-radius: 80%;
+    width: 10%;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin-right:  5%;
+  }
+
 }
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+.navigation li a {
+    text-decoration: none;
+    color: lightgrey;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 18px;
+
 }
-.personal{
-    margin-left: 20px;
-    display: inline block;
+
+
+li a:hover
+  {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+   }
+ul, li {
+  list-style-type: none;
+
 }
-.personal ul {
-  font-weight: 400;
-  font-style: italic;
-  font-size: 22px;
-  margin-left: 13%;
-  display: block;
+
+.content{
+  padding-left: 5%;
+  width: 80%;
+}
+
+.text-primary{
+  color: #bd5d38!important;
+}
+
+.social-icons{
+  padding: 5%;
+}
+
+@media (max-width:800px) {
+  .navigation .space{
+    display: inline-block;
+    margin-left: 10%;
+
+  }
+
+}
+
+@media (min-width:800px) {
+  .navigation .space{
+    display: block;
+    margin-top: 5%;
+
+  }
+
 }
